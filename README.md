@@ -1,5 +1,5 @@
 # swoole聊天室
-基于swoole的聊天室，供学习用，可支持在线体验：http://chat.ragonli.com/
+基于swoole的聊天室，供学习用，支持在线体验：http://chat.ragonli.com/
 
 体验环境：
 ***
