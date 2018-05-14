@@ -1,6 +1,5 @@
-# chatRoom
-本应用是一个在线聊天室。利用了swoole高并发并且异步非阻塞的特点提高了程序的性能。
-该应用需要swoole拓展的支持。
+# swoole聊天室
+基于swoole的聊天室，供学习用，可支持在线体验：http://chat.ragonli.com/
 
 # 安装
 php大于7.0安装如下：
