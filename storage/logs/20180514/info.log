@@ -1,0 +1,52 @@
+[ 2018-05-14 16:31:11 ]local.INFO:array (
+  'remote_addr' => '192.168.2.32',
+  'request_time' => '2018-05-14 16:31:11',
+)
+[ 2018-05-14 16:31:14 ]local.INFO:Task0Finished
+
+[ 2018-05-14 16:31:17 ]local.INFO:Task1Finished
+
+[ 2018-05-14 16:31:20 ]local.INFO:array (
+  'remote_addr' => '192.168.2.32',
+  'request_time' => '2018-05-14 16:31:20',
+)
+[ 2018-05-14 16:31:20 ]local.INFO:Task0Finished
+
+[ 2018-05-14 16:31:23 ]local.INFO:2 disconnected
+[ 2018-05-14 16:31:23 ]local.INFO:Task1Finished
+
+[ 2018-05-14 16:31:30 ]local.INFO:array (
+  'remote_addr' => '192.168.2.32',
+  'request_time' => '2018-05-14 16:31:30',
+)
+[ 2018-05-14 16:31:36 ]local.INFO:Task2Finished
+
+[ 2018-05-14 16:31:54 ]local.INFO:Task3Finished
+
+[ 2018-05-14 16:32:07 ]local.INFO:Task2Finished
+
+[ 2018-05-14 16:52:33 ]local.INFO:array (
+  'remote_addr' => '192.168.2.32',
+  'request_time' => '2018-05-14 16:52:33',
+)
+[ 2018-05-14 16:52:39 ]local.INFO:Task0Finished
+
+[ 2018-05-14 16:52:45 ]local.INFO:Task1Finished
+
+[ 2018-05-14 16:52:48 ]local.INFO:4 disconnected
+[ 2018-05-14 16:52:48 ]local.INFO:Task2Finished
+
+[ 2018-05-14 16:52:48 ]local.INFO:array (
+  'remote_addr' => '192.168.2.32',
+  'request_time' => '2018-05-14 16:52:48',
+)
+[ 2018-05-14 16:52:48 ]local.INFO:Task3Finished
+
+[ 2018-05-14 16:52:56 ]local.INFO:array (
+  'remote_addr' => '192.168.2.32',
+  'request_time' => '2018-05-14 16:52:56',
+)
+[ 2018-05-14 16:53:00 ]local.INFO:Task0Finished
+
+[ 2018-05-14 16:53:04 ]local.INFO:Task1Finished
+

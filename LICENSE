@@ -1,21 +1,29 @@
-MIT License
+# chatRoom
+本应用是一个在线聊天室。利用了swoole高并发并且异步非阻塞的特点提高了程序的性能。
+该应用需要swoole拓展的支持。
 
-Copyright (c) 2018 jeff
+# 安装
+php大于7.0安装如下：
+`pecl install swoole`
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+php小于7.0安装如下：
+``` 
+wget http://pecl.php.net/get/swoole-1.10.4.tgz
+tar zxvf  swoole-1.10.4.tgz
+cd swoole-1.10.4
+phpize
+./configure --enable-sockets --enable-openssl --with-php-config=/usr/local/php/bin/php-config --enable-swoole-debug
+make 
+sudo make install
+```
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+或到[swoole官网](http://www.swoole.com/)获取安装帮助
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+# 运行
+
+开启服务：
+将目录配置到Nginx/Apache的虚拟主机目录中，使用浏览器访问index.php可访问。 修改`config.php`中，IP和端口为对应的配置。
+``` bash
+cd /path/to/your/application/
+nohup php server.php &
+```
