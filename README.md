@@ -1,11 +1,16 @@
 # swoole聊天室
 基于swoole的聊天室，供学习用，可支持在线体验：http://chat.ragonli.com/
 
+体验环境：
+***
+*  php       5.6.33
+*  swoole    1.10.4
+
 # 安装
-php大于7.0安装如下：
+php大于7.0通过pcel安装：
 `pecl install swoole`
 
-php小于7.0安装如下：
+php小于7.0编译安装：
 ``` 
 wget http://pecl.php.net/get/swoole-1.10.4.tgz
 tar zxvf  swoole-1.10.4.tgz
